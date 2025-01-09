@@ -20,6 +20,7 @@ struct FoodItem: Identifiable {
     let id = UUID()
     let name: String
     let image: String
+    let price: String
 }
 
 
@@ -32,11 +33,13 @@ let thisWeeksFlyer = Flyer(
             items: [
                 FoodItem(
                     name: "Sirloin Tip Oven Roasts",
-                    image: "sirloin-tips"
+                    image: "sirloin-tips",
+                    price: "29.99"
                 ),
                 FoodItem(
                     name: "Porkloin Back Ribs",
-                    image: "porkloin-back-ribs"
+                    image: "porkloin-back-ribs",
+                    price: "21.67"
                 ),
             ]
         ),
@@ -46,15 +49,18 @@ let thisWeeksFlyer = Flyer(
             items: [
                 FoodItem(
                     name: "Wild Pacific Halibut Fillets",
-                    image: "wild-pacific-halibut-fillets"
+                    image: "wild-pacific-halibut-fillets",
+                    price: "24.55"
                 ),
                 FoodItem(
                     name: "Wild Sockeye Salmon Fillets",
-                    image: "wild-sockeye-salmon-fillets"
+                    image: "wild-sockeye-salmon-fillets",
+                    price: "19.87"
                 ),
                 FoodItem(
                     name: "Clam Chowder",
-                    image: "clam-chowder"
+                    image: "clam-chowder",
+                    price: "12.89"
                 ),
             ]
         ),
@@ -64,11 +70,13 @@ let thisWeeksFlyer = Flyer(
             items: [
                 FoodItem(
                     name: "Homemade Chorizo",
-                    image: "homemade-chorizo"
+                    image: "homemade-chorizo",
+                    price: "46.79"
                 ),
                 FoodItem(
                     name: "Butcher Shoppe Pancetta",
-                    image: "butcher-shoppe-pancetta"
+                    image: "butcher-shoppe-pancetta",
+                    price: "57.67"
                 ),
             ]
         ),

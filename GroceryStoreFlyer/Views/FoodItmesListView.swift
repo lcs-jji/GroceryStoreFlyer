@@ -20,6 +20,14 @@ struct FoodItemsListView: View {
                         Image(currentItem.image)
                             .resizable()
                             .scaledToFit()
+                        
+                        HStack{
+                            Text(currentItem.price)
+                                .font(Font.custom("Times New Roman", size: 25))
+                            Text("$")
+                                .font(Font.custom("Times New Roman", size: 30))
+                                .bold()
+                        }
                     }
                 }
                     
